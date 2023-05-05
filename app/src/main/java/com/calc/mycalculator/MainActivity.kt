@@ -62,22 +62,7 @@ class MainActivity : AppCompatActivity() {
         btnMultiply = findViewById(R.id.btnMultiply)
         btnDivide = findViewById(R.id.btnDivide)
     }
-//    fun validateResult() {
-//        val firstNumber = etFirstNumber.text.toString()
-//        val SecondNumber = etSecondNumber.text.toString()
-//        val result = etResult.text.toString()
-//        var error = false
-//
-//        if (firstNumber.isBlank()) {
-//            tilFirstNumber.error = "first number is required"
-//            error = true
-//        }
-//        if (secondNumber.isBlank()) {
-//            tilSecondNumber.error = "second number is required"
-//            error=true
-//        }
-//
-//    }
+
     fun addition() {
         var firstNumber = etFirstNumber.text.toString().toDouble()
         var secondNumber = etSecondNumber.text.toString().toDouble()
